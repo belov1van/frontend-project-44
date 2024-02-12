@@ -10,3 +10,7 @@ playEvenGame;
 import { getRandomNumber } from "./brain-even.js";
 
 getRandomNumber;
+
+import { calculate } from "./brain-calc.js";
+
+calculate
