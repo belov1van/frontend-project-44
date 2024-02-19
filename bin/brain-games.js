@@ -1,16 +1,3 @@
+import { getUserName } from "../src/cli";
 
-import { getUserName } from "../src/cli.js";
-
-getUserName;
-
-import { playEvenGame } from "./brain-even.js";
-
-playEvenGame;
-
-import { getRandomNumber } from "./brain-even.js";
-
-getRandomNumber;
-
-import { calculate } from "./brain-calc.js";
-
-calculate
+getUserName();
