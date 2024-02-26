@@ -28,8 +28,6 @@ export const playEvenGame = () => {
   console.log(`Congratulations! You've won!`);
 };
 
-// Run the game
-playEvenGame();
 
 export function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
