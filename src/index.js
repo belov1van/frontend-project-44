@@ -10,7 +10,8 @@ function greetingWithNameReturn() {
   console.log(`Hello, ${name}!`);
   return name;
 }
-function playgame(rules, generateQuestion) {
+
+function playGame(rules, generateQuestion) {
   const name = greetingWithNameReturn();
   console.log(rules);
   for (let i = 0; i < 3; i += 1) {
@@ -30,4 +31,4 @@ function playgame(rules, generateQuestion) {
   console.log(`Congratulations, ${name}!`);
 }
 
-export { playgame, getRandomNumber };
+export { playGame, getRandomNumber };

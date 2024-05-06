@@ -1,5 +1,6 @@
-import { playgame, getRandomNumber } from '../index.js';
+import { playGame, getRandomNumber } from '../index.js';
 
+// Генерация случайного математического выражения
 function generateQuestion() {
   let question = '';
   let correctAnswer = '';
@@ -25,5 +26,5 @@ function generateQuestion() {
 // Основная функция игры
 export default function playCalculatorGame() {
   const rules = 'What is the result of the expression?';
-  playgame(rules, generateQuestion);
+  playGame(rules, generateQuestion);
 }
